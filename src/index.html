@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AHJ-4</title>
+</head>
+
+<body>
+  <main class="checkCard">
+  <h3>Check your credit card number</h3>
+  <ul class="cards list-instyled">
+  <li class="card"><img src="./img/visa.png" class="image visa disabled">
+  </li>
+  <li class="card"><img src="./img/mastercard.png" class="image master disabled">
+  </li>
+  <li class="card"><img src="./img/maestro.png" class="image maestro disabled">
+  </li>
+  <li class="card"><img src="./img/mir.png" class="image mir disabled">
+  </li>
+  </ul>
+  <form id="form" class="form-validate">
+    <div class="form-group">
+    <input class="form-control" id="card_number" name="card_number" type="text" placeholder="card number">
+    <button id="submitbtn" class="btn btn-success" type="button">Click to Validate</a>
+    </div>
+    </form>
+    <div class="error_card">"!!!Невалидный номер карты!"</div>
+    <div class="valid_card">Корректный номер карты!"</div>
+
+  </main>
+</body>
+
+</html>

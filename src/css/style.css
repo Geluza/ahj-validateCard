@@ -1,0 +1,41 @@
+.disabled {
+  opacity: 0.3;
+}
+
+.valid {
+  border: 2px solid green;
+};
+
+.invalid {
+  border: 2px solid red;
+}
+
+.btn-success {
+  background-color: green;
+  border: solid 2px black;
+  font-size: 20px; 
+}
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 30px;
+  align-items: flex-center
+}
+
+.card {
+  margin-left: 10px;
+  list-style-type: none;
+  align-items: flex-center;
+  margin-left: 20px;
+}
+
+.image {
+  width: 40px;
+  height: 35px;
+}
+
+
+.error_card, .valid_card {
+  display: none;
+}
